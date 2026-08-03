@@ -28,7 +28,7 @@ import org.robolectric.annotation.Config
 @OptIn(ExperimentalCoroutinesApi::class)
 @HiltAndroidTest
 @RunWith(RobolectricTestRunner::class)
-@Config(application = HiltTestApplication::class)
+@Config(application = HiltTestApplication::class, sdk = [34])
 class ExportStateTest {
     @get:Rule
     val mainDispatcherRule = MainDispatcherRule()

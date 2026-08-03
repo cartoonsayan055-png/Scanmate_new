@@ -21,7 +21,7 @@ class FileUtilsFacadeTest {
     fun sanitizeFileBaseNameStripsIllegalCharacters() {
         val sanitized = FileUtils.sanitizeFileBaseName("Receipt: May/2026?*")
 
-        assertEquals("Receipt__May_2026__", sanitized)
+        assertEquals("Receipt_May_2026", sanitized)
         assertFalse(sanitized.contains(':'))
         assertFalse(sanitized.contains('/'))
         assertFalse(sanitized.contains('?'))

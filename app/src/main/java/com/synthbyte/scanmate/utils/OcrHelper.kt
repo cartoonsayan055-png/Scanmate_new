@@ -432,13 +432,17 @@ object OcrHelper {
         if (sample !== source && !sample.isRecycled) runCatching { sample.recycle() }
         if (abs(bestAngle) < 0.4f) return source
         val matrix = Matrix().apply { postRotate(bestAngle) }
-        return Bitmap.createBitmap(source, 0, 0, source.width, source.height, matrix, true)
+        return runCatching {
+            Bitmap.createBitmap(source, 0, 0, source.width, source.height, matrix, true)
+        }.getOrNull() ?: source
     }
 
     private fun rotateForSkewScore(source: Bitmap, angle: Float): Bitmap {
         if (abs(angle) < 0.001f) return source
         val matrix = Matrix().apply { postRotate(angle) }
-        return Bitmap.createBitmap(source, 0, 0, source.width, source.height, matrix, true)
+        return runCatching {
+            Bitmap.createBitmap(source, 0, 0, source.width, source.height, matrix, true)
+        }.getOrNull() ?: source
     }
 
     private fun horizontalProjectionVariance(bitmap: Bitmap): Double {
@@ -446,7 +450,11 @@ object OcrHelper {
         val height = bitmap.height
         if (width <= 1 || height <= 1) return 0.0
         val pixels = IntArray(width * height)
-        bitmap.getPixels(pixels, 0, width, 0, 0, width, height)
+        try {
+            bitmap.getPixels(pixels, 0, width, 0, 0, width, height)
+        } catch (e: Throwable) {
+            return 0.0
+        }
         val rowSums = DoubleArray(height)
         for (y in 0 until height) {
             var sum = 0.0

@@ -1,5 +1,7 @@
 # Gradle / Android
 .gradle/
+.gradle-wrapper-fallback/
+.gradle-colab/
 build/
 **/build/
 local.properties
