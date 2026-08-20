@@ -1,0 +1,37 @@
+# Gradle / Android
+.gradle/
+.gradle-wrapper-fallback/
+.gradle-colab/
+build/
+**/build/
+local.properties
+.cxx/
+.externalNativeBuild/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Signing secrets
+keystore.properties
+*.jks
+*.keystore
+*.p12
+
+# Generated artifacts and historical build output
+/build-history/
+*.apk
+*.aab
+*.ap_
+*.log
+*.patch
+*.sha256
+*.tsv
+*.zip
+*.tmp
+*.bak
+crash_log.txt
+
+# OS noise
+.DS_Store
+Thumbs.db
