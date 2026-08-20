@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="Vault/" />
+        <exclude domain="file" path="vault/" />
+        <exclude domain="external" path="Vault/" />
+        <exclude domain="external" path="vault/" />
+        <exclude domain="database" path="scanmate_database" />
+        <exclude domain="database" path="scanmate_database-shm" />
+        <exclude domain="database" path="scanmate_database-wal" />
+        <exclude domain="file" path="datastore/" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="Vault/" />
+        <exclude domain="file" path="vault/" />
+        <exclude domain="external" path="Vault/" />
+        <exclude domain="external" path="vault/" />
+        <exclude domain="database" path="scanmate_database" />
+        <exclude domain="database" path="scanmate_database-shm" />
+        <exclude domain="database" path="scanmate_database-wal" />
+        <exclude domain="file" path="datastore/" />
+    </device-transfer>
+</data-extraction-rules>

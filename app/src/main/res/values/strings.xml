@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ScanMate</string>
+    <string name="play_store_summary">Premium offline-first AI document scanner with English OCR, PDF, QR, vault, widgets, and optional user-key AI tools.</string>
+</resources>

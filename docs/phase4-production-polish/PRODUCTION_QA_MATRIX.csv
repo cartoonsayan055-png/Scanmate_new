@@ -1,0 +1,181 @@
+Test ID,Feature,Device Profile,Network/API State,Action,Expected Result,Priority,Notes
+SM-P4-0001,Scanner,Android 9 low-end,Wi-Fi,Validate Scanner flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0002,Scanner,Android 10 mid-range,No API key,Validate Scanner flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0003,Scanner,Android 11 Samsung,Airplane mode,Validate Scanner flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0004,Scanner,Android 12 Material You,Wi-Fi,Validate Scanner flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0005,Scanner,Android 13 Pixel,No API key,Validate Scanner flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0006,Scanner,Android 14 modern,Airplane mode,Validate Scanner flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0007,Gallery Import,Android 9 low-end,Wi-Fi,Validate Gallery Import flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0008,Gallery Import,Android 10 mid-range,No API key,Validate Gallery Import flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0009,Gallery Import,Android 11 Samsung,Airplane mode,Validate Gallery Import flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0010,Gallery Import,Android 12 Material You,Wi-Fi,Validate Gallery Import flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0011,Gallery Import,Android 13 Pixel,No API key,Validate Gallery Import flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0012,Gallery Import,Android 14 modern,Airplane mode,Validate Gallery Import flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0013,OCR,Android 9 low-end,Wi-Fi,Validate OCR flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0014,OCR,Android 10 mid-range,No API key,Validate OCR flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0015,OCR,Android 11 Samsung,Airplane mode,Validate OCR flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0016,OCR,Android 12 Material You,Wi-Fi,Validate OCR flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0017,OCR,Android 13 Pixel,No API key,Validate OCR flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0018,OCR,Android 14 modern,Airplane mode,Validate OCR flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0019,OCR Translate,Android 9 low-end,Wi-Fi,Validate OCR Translate flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0020,OCR Translate,Android 10 mid-range,No API key,Validate OCR Translate flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0021,OCR Translate,Android 11 Samsung,Airplane mode,Validate OCR Translate flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0022,OCR Translate,Android 12 Material You,Wi-Fi,Validate OCR Translate flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0023,OCR Translate,Android 13 Pixel,No API key,Validate OCR Translate flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0024,OCR Translate,Android 14 modern,Airplane mode,Validate OCR Translate flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0025,PDF Export,Android 9 low-end,Wi-Fi,Validate PDF Export flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0026,PDF Export,Android 10 mid-range,No API key,Validate PDF Export flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0027,PDF Export,Android 11 Samsung,Airplane mode,Validate PDF Export flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0028,PDF Export,Android 12 Material You,Wi-Fi,Validate PDF Export flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0029,PDF Export,Android 13 Pixel,No API key,Validate PDF Export flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0030,PDF Export,Android 14 modern,Airplane mode,Validate PDF Export flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0031,DOCX Export,Android 9 low-end,Wi-Fi,Validate DOCX Export flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0032,DOCX Export,Android 10 mid-range,No API key,Validate DOCX Export flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0033,DOCX Export,Android 11 Samsung,Airplane mode,Validate DOCX Export flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0034,DOCX Export,Android 12 Material You,Wi-Fi,Validate DOCX Export flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0035,DOCX Export,Android 13 Pixel,No API key,Validate DOCX Export flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0036,DOCX Export,Android 14 modern,Airplane mode,Validate DOCX Export flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0037,TXT Export,Android 9 low-end,Wi-Fi,Validate TXT Export flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0038,TXT Export,Android 10 mid-range,No API key,Validate TXT Export flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0039,TXT Export,Android 11 Samsung,Airplane mode,Validate TXT Export flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0040,TXT Export,Android 12 Material You,Wi-Fi,Validate TXT Export flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0041,TXT Export,Android 13 Pixel,No API key,Validate TXT Export flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0042,TXT Export,Android 14 modern,Airplane mode,Validate TXT Export flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0043,ZIP Export,Android 9 low-end,Wi-Fi,Validate ZIP Export flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0044,ZIP Export,Android 10 mid-range,No API key,Validate ZIP Export flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0045,ZIP Export,Android 11 Samsung,Airplane mode,Validate ZIP Export flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0046,ZIP Export,Android 12 Material You,Wi-Fi,Validate ZIP Export flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0047,ZIP Export,Android 13 Pixel,No API key,Validate ZIP Export flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0048,ZIP Export,Android 14 modern,Airplane mode,Validate ZIP Export flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0049,QR Scanner,Android 9 low-end,Wi-Fi,Validate QR Scanner flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0050,QR Scanner,Android 10 mid-range,No API key,Validate QR Scanner flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0051,QR Scanner,Android 11 Samsung,Airplane mode,Validate QR Scanner flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0052,QR Scanner,Android 12 Material You,Wi-Fi,Validate QR Scanner flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0053,QR Scanner,Android 13 Pixel,No API key,Validate QR Scanner flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0054,QR Scanner,Android 14 modern,Airplane mode,Validate QR Scanner flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0055,QR Generator,Android 9 low-end,Wi-Fi,Validate QR Generator flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0056,QR Generator,Android 10 mid-range,No API key,Validate QR Generator flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0057,QR Generator,Android 11 Samsung,Airplane mode,Validate QR Generator flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0058,QR Generator,Android 12 Material You,Wi-Fi,Validate QR Generator flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0059,QR Generator,Android 13 Pixel,No API key,Validate QR Generator flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0060,QR Generator,Android 14 modern,Airplane mode,Validate QR Generator flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0061,vCard,Android 9 low-end,Wi-Fi,Validate vCard flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0062,vCard,Android 10 mid-range,No API key,Validate vCard flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0063,vCard,Android 11 Samsung,Airplane mode,Validate vCard flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0064,vCard,Android 12 Material You,Wi-Fi,Validate vCard flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0065,vCard,Android 13 Pixel,No API key,Validate vCard flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0066,vCard,Android 14 modern,Airplane mode,Validate vCard flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0067,MECARD,Android 9 low-end,Wi-Fi,Validate MECARD flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0068,MECARD,Android 10 mid-range,No API key,Validate MECARD flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0069,MECARD,Android 11 Samsung,Airplane mode,Validate MECARD flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0070,MECARD,Android 12 Material You,Wi-Fi,Validate MECARD flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0071,MECARD,Android 13 Pixel,No API key,Validate MECARD flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0072,MECARD,Android 14 modern,Airplane mode,Validate MECARD flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0073,Widgets,Android 9 low-end,Wi-Fi,Validate Widgets flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0074,Widgets,Android 10 mid-range,No API key,Validate Widgets flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0075,Widgets,Android 11 Samsung,Airplane mode,Validate Widgets flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0076,Widgets,Android 12 Material You,Wi-Fi,Validate Widgets flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0077,Widgets,Android 13 Pixel,No API key,Validate Widgets flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0078,Widgets,Android 14 modern,Airplane mode,Validate Widgets flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0079,Shortcuts,Android 9 low-end,Wi-Fi,Validate Shortcuts flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0080,Shortcuts,Android 10 mid-range,No API key,Validate Shortcuts flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0081,Shortcuts,Android 11 Samsung,Airplane mode,Validate Shortcuts flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0082,Shortcuts,Android 12 Material You,Wi-Fi,Validate Shortcuts flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0083,Shortcuts,Android 13 Pixel,No API key,Validate Shortcuts flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0084,Shortcuts,Android 14 modern,Airplane mode,Validate Shortcuts flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0085,AI Workspace,Android 9 low-end,Wi-Fi,Validate AI Workspace flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0086,AI Workspace,Android 10 mid-range,No API key,Validate AI Workspace flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0087,AI Workspace,Android 11 Samsung,Airplane mode,Validate AI Workspace flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0088,AI Workspace,Android 12 Material You,Wi-Fi,Validate AI Workspace flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0089,AI Workspace,Android 13 Pixel,No API key,Validate AI Workspace flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0090,AI Workspace,Android 14 modern,Airplane mode,Validate AI Workspace flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0091,Offline Fallback,Android 9 low-end,Wi-Fi,Validate Offline Fallback flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0092,Offline Fallback,Android 10 mid-range,No API key,Validate Offline Fallback flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0093,Offline Fallback,Android 11 Samsung,Airplane mode,Validate Offline Fallback flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0094,Offline Fallback,Android 12 Material You,Wi-Fi,Validate Offline Fallback flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0095,Offline Fallback,Android 13 Pixel,No API key,Validate Offline Fallback flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0096,Offline Fallback,Android 14 modern,Airplane mode,Validate Offline Fallback flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0097,Document Editor,Android 9 low-end,Wi-Fi,Validate Document Editor flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0098,Document Editor,Android 10 mid-range,No API key,Validate Document Editor flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0099,Document Editor,Android 11 Samsung,Airplane mode,Validate Document Editor flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0100,Document Editor,Android 12 Material You,Wi-Fi,Validate Document Editor flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0101,Document Editor,Android 13 Pixel,No API key,Validate Document Editor flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0102,Document Editor,Android 14 modern,Airplane mode,Validate Document Editor flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0103,Drag Reorder,Android 9 low-end,Wi-Fi,Validate Drag Reorder flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0104,Drag Reorder,Android 10 mid-range,No API key,Validate Drag Reorder flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0105,Drag Reorder,Android 11 Samsung,Airplane mode,Validate Drag Reorder flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0106,Drag Reorder,Android 12 Material You,Wi-Fi,Validate Drag Reorder flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0107,Drag Reorder,Android 13 Pixel,No API key,Validate Drag Reorder flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0108,Drag Reorder,Android 14 modern,Airplane mode,Validate Drag Reorder flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0109,Filters,Android 9 low-end,Wi-Fi,Validate Filters flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0110,Filters,Android 10 mid-range,No API key,Validate Filters flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0111,Filters,Android 11 Samsung,Airplane mode,Validate Filters flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0112,Filters,Android 12 Material You,Wi-Fi,Validate Filters flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0113,Filters,Android 13 Pixel,No API key,Validate Filters flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0114,Filters,Android 14 modern,Airplane mode,Validate Filters flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0115,Watermark,Android 9 low-end,Wi-Fi,Validate Watermark flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0116,Watermark,Android 10 mid-range,No API key,Validate Watermark flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0117,Watermark,Android 11 Samsung,Airplane mode,Validate Watermark flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0118,Watermark,Android 12 Material You,Wi-Fi,Validate Watermark flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0119,Watermark,Android 13 Pixel,No API key,Validate Watermark flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0120,Watermark,Android 14 modern,Airplane mode,Validate Watermark flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0121,Signature,Android 9 low-end,Wi-Fi,Validate Signature flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0122,Signature,Android 10 mid-range,No API key,Validate Signature flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0123,Signature,Android 11 Samsung,Airplane mode,Validate Signature flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0124,Signature,Android 12 Material You,Wi-Fi,Validate Signature flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0125,Signature,Android 13 Pixel,No API key,Validate Signature flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0126,Signature,Android 14 modern,Airplane mode,Validate Signature flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0127,Analytics,Android 9 low-end,Wi-Fi,Validate Analytics flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0128,Analytics,Android 10 mid-range,No API key,Validate Analytics flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0129,Analytics,Android 11 Samsung,Airplane mode,Validate Analytics flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0130,Analytics,Android 12 Material You,Wi-Fi,Validate Analytics flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0131,Analytics,Android 13 Pixel,No API key,Validate Analytics flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0132,Analytics,Android 14 modern,Airplane mode,Validate Analytics flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0133,Favorites,Android 9 low-end,Wi-Fi,Validate Favorites flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0134,Favorites,Android 10 mid-range,No API key,Validate Favorites flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0135,Favorites,Android 11 Samsung,Airplane mode,Validate Favorites flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0136,Favorites,Android 12 Material You,Wi-Fi,Validate Favorites flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0137,Favorites,Android 13 Pixel,No API key,Validate Favorites flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0138,Favorites,Android 14 modern,Airplane mode,Validate Favorites flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0139,Pinned Documents,Android 9 low-end,Wi-Fi,Validate Pinned Documents flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0140,Pinned Documents,Android 10 mid-range,No API key,Validate Pinned Documents flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0141,Pinned Documents,Android 11 Samsung,Airplane mode,Validate Pinned Documents flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0142,Pinned Documents,Android 12 Material You,Wi-Fi,Validate Pinned Documents flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0143,Pinned Documents,Android 13 Pixel,No API key,Validate Pinned Documents flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0144,Pinned Documents,Android 14 modern,Airplane mode,Validate Pinned Documents flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0145,Workspace Metadata,Android 9 low-end,Wi-Fi,Validate Workspace Metadata flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0146,Workspace Metadata,Android 10 mid-range,No API key,Validate Workspace Metadata flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0147,Workspace Metadata,Android 11 Samsung,Airplane mode,Validate Workspace Metadata flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0148,Workspace Metadata,Android 12 Material You,Wi-Fi,Validate Workspace Metadata flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0149,Workspace Metadata,Android 13 Pixel,No API key,Validate Workspace Metadata flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0150,Workspace Metadata,Android 14 modern,Airplane mode,Validate Workspace Metadata flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0151,Search,Android 9 low-end,Wi-Fi,Validate Search flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0152,Search,Android 10 mid-range,No API key,Validate Search flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0153,Search,Android 11 Samsung,Airplane mode,Validate Search flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0154,Search,Android 12 Material You,Wi-Fi,Validate Search flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0155,Search,Android 13 Pixel,No API key,Validate Search flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0156,Search,Android 14 modern,Airplane mode,Validate Search flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0157,Room Migration,Android 9 low-end,Wi-Fi,Validate Room Migration flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0158,Room Migration,Android 10 mid-range,No API key,Validate Room Migration flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0159,Room Migration,Android 11 Samsung,Airplane mode,Validate Room Migration flow with realistic user input and edge-case handling,Friendly error,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0160,Room Migration,Android 12 Material You,Wi-Fi,Validate Room Migration flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0161,Room Migration,Android 13 Pixel,No API key,Validate Room Migration flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0162,Room Migration,Android 14 modern,Airplane mode,Validate Room Migration flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0163,Theme,Android 9 low-end,Wi-Fi,Validate Theme flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0164,Theme,Android 10 mid-range,No API key,Validate Theme flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0165,Theme,Android 11 Samsung,Airplane mode,Validate Theme flow with realistic user input and edge-case handling,Result shareable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0166,Theme,Android 12 Material You,Wi-Fi,Validate Theme flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0167,Theme,Android 13 Pixel,No API key,Validate Theme flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0168,Theme,Android 14 modern,Airplane mode,Validate Theme flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0169,Material You,Android 9 low-end,Wi-Fi,Validate Material You flow with realistic user input and edge-case handling,UI remains responsive,High,Record screenshot/logcat only if failure occurs
+SM-P4-0170,Material You,Android 10 mid-range,No API key,Validate Material You flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0171,Material You,Android 11 Samsung,Airplane mode,Validate Material You flow with realistic user input and edge-case handling,Navigation stable,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0172,Material You,Android 12 Material You,Wi-Fi,Validate Material You flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0173,Material You,Android 13 Pixel,No API key,Validate Material You flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0174,Material You,Android 14 modern,Airplane mode,Validate Material You flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0175,File Sharing,Android 9 low-end,Wi-Fi,Validate File Sharing flow with realistic user input and edge-case handling,Memory safe,High,Record screenshot/logcat only if failure occurs
+SM-P4-0176,File Sharing,Android 10 mid-range,No API key,Validate File Sharing flow with realistic user input and edge-case handling,Result shareable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0177,File Sharing,Android 11 Samsung,Airplane mode,Validate File Sharing flow with realistic user input and edge-case handling,UI remains responsive,Medium,Record screenshot/logcat only if failure occurs
+SM-P4-0178,File Sharing,Android 12 Material You,Wi-Fi,Validate File Sharing flow with realistic user input and edge-case handling,Friendly error,High,Record screenshot/logcat only if failure occurs
+SM-P4-0179,File Sharing,Android 13 Pixel,No API key,Validate File Sharing flow with realistic user input and edge-case handling,Navigation stable,High,Record screenshot/logcat only if failure occurs
+SM-P4-0180,File Sharing,Android 14 modern,Airplane mode,Validate File Sharing flow with realistic user input and edge-case handling,Memory safe,Medium,Record screenshot/logcat only if failure occurs

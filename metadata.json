@@ -1,0 +1,29 @@
+{
+  "name": "ScanMate AI Pro",
+  "description": "A premium offline-first Android document scanner with English OCR, PDF/QR/export tools, encrypted vault, widgets, onboarding, and optional user-key AI workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "AES_256_GCM_VAULT",
+    "CAMERA_SCAN",
+    "MATERIAL3_DYNAMIC_COLOR",
+    "MLKIT_OCR",
+    "OPTIONAL_USER_KEY_GEMINI",
+    "PDF_EXPORT",
+    "PLAY_STORE_READY_EXPORTS",
+    "QR_BARCODE",
+    "WORKMANAGER_OCR",
+    "ZIP_BACKUP"
+  ],
+  "package": "com.synthbyte.scanmate",
+  "versionName": "1.6.0",
+  "version": "1.6.0",
+  "githubTopics": [
+    "android",
+    "kotlin",
+    "document-scanner",
+    "ocr",
+    "material-design",
+    "jetpack",
+    "offline-first"
+  ]
+}

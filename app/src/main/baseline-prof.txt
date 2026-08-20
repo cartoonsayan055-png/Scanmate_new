@@ -1,0 +1,6 @@
+HSPLcom/synthbyte/scanmate/MainActivity;->onCreate(Landroid/os/Bundle;)V
+HSPLcom/synthbyte/scanmate/ui/screens/HomeScreenKt;->HomeScreen(*)V
+HSPLcom/synthbyte/scanmate/ui/screens/CameraScreenKt;->CameraScreen(*)V
+HSPLcom/synthbyte/scanmate/ui/screens/DocumentDetailScreenKt;->DocumentDetailScreen(*)V
+HSPLcom/synthbyte/scanmate/utils/PdfExporter;->generatePdfFromPaths(*)Ljava/lang/Object;
+HSPLcom/synthbyte/scanmate/utils/OcrHelper;->extractTextWithStatsFromFile(*)Ljava/lang/Object;

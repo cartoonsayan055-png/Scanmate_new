@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!-- CameraX imageProxy.image is intentionally used for ML Kit barcode/OCR analysis. -->
+    <issue id="UnsafeOptInUsageError">
+        <option name="opt-in" value="androidx.camera.core.ExperimentalGetImage" />
+    </issue>
+
+    <!-- Compose lint can false-positive here because our producer assigns value through IO decoding. -->
+    <issue id="ProduceStateDoesNotAssignValue" severity="ignore" />
+</lint>
