@@ -234,8 +234,8 @@ tasks.register<JacocoReport>("jacocoTestReport") {
 }
 
 dependencies {
-    implementation("androidx.core:core-splashscreen:1.0.1")
-    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation("androidx.core:core-splashscreen:1.2.0")
+    implementation("androidx.core:core-splashscreen:1.2.0")
     implementation("androidx.work:work-runtime-ktx:2.10.1")
 
     implementation(platform(libs.androidx.compose.bom))
